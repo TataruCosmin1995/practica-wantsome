@@ -1,0 +1,1 @@
+In addition to being distributed, Git has been designed with performance, security and flexibility in mind.
