@@ -1,0 +1,33 @@
+h2:hover {
+    color: red;
+}
+h2 {
+    font-size: 50px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 6px;
+    height: 100px;
+  width: 50%;
+}
+
+select:focus {
+    color: blue;
+}
+
+label[class="form"] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: crimson;
+}
+
+h3 {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 2px dotted green;
+    position: absolute;
+    background-color: yellow;
+    right: 50%;
+}
