@@ -1,0 +1,32 @@
+.class1 {
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+}
+
+.class2 {
+    background-color: wheat;
+    width: 800px;
+    height: 300px;
+}
+
+.class3 {
+    background-color: yellowgreen;
+    width: 500px;
+    height: 300px;
+}
+
+header {
+    background-color: purple;
+    height: 150px;
+}
+
+footer {
+    background-color: orange;
+    height: 150px;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+}

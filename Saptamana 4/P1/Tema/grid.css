@@ -1,0 +1,46 @@
+html {
+    background-color: lightgrey;
+}
+
+header {
+
+    height: 70px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+footer {
+        height: 70px;
+        background-color: green;
+        align-items: flex-end;
+        border: 2px solid black;
+    }
+
+.eroul {
+    width: 250px;
+    height: 250px;
+    display: inline-flex;
+}
+
+.magia {
+    width: 250px;
+    height: 250px;
+    display: inline-flex;
+}
+
+.secretul {
+    width: 250px;
+    height: 250px;
+    display: inline-flex;   
+}
+
+main {
+    background: rgba(76, 175, 80, 0.3)
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+   }
