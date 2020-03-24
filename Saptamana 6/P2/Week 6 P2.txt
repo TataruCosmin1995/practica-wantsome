@@ -1,0 +1,53 @@
+1.
+function greatestNrBetween(a, b) {
+    if (a < b) {
+      console.log("numarul mai mare dintre " + a + " si " + b + " este " + b);
+    }
+    else {
+      console.log("numarul " + a + " nu este mai mare decat " + b);
+    }
+  }
+  greatestNrBetween(5, 10)
+
+
+
+2.
+function  helloWorldInLang(language) {
+  if (language === "en") {
+    console.log("Hello")
+  } 
+  else if (language === "fr") {
+    console.log("Bonjour")
+  }
+  else if (language === "it") {
+    console.log("Ciao")
+  }
+  else {
+    console.log("Hello")
+  }
+}
+helloWorldInLang("ro")
+
+
+3.
+function pluralizeWord(a,b){
+if (a === "dog") {
+      console.log(a);
+      return;
+    }
+    if (a === "dog") {
+      console.log(b + " cat");
+      return;
+    } 
+    if (b >3) {
+      console.log(b + " " + a + "s");
+    } else {
+      console.log(b + " " + a);
+    }  
+  }
+
+  pluralizeWord("cat", 3)
+
+
+
+4.
